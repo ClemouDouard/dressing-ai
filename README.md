@@ -119,6 +119,18 @@ Work in progress
 <!-- ROADMAP -->
 ## Roadmap
 
+- [x] Structure of the project
+- [ ] Authentification system
+  - [ ] Users table
+  - [ ] Add it to the setup_db.py script
+  - [ ] Make a login page
+- [ ] Image management
+  - [ ] Make an upload button
+  - [ ] Extract features from the image
+  - [ ] Print those features on the page to make sure that the user is happy with the result
+  - [ ] Save the image and its features in the database
+- [ ] Recommendation system
+- [ ] Deployment
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
