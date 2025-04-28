@@ -121,8 +121,9 @@ Work in progress
 
 - [x] Structure of the project
 - [ ] Authentification system
-  - [ ] Users table
-  - [ ] Add it to the setup_db.py script
+  - [x] Users table
+  - [x] Add it to the setup_db.py script
+  - [ ] Add a user
   - [ ] Make a login page
 - [ ] Image management
   - [ ] Make an upload button
