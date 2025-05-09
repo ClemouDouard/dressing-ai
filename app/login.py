@@ -20,7 +20,7 @@ def login_page():
         password = st.text_input("Mot de passe", type="password")
         if st.button("Se connecter"):
             user = get_user(username)
-            if user and bcrypt.checkpw(password.encore(), user[2].encode()):
+            if user and bcrypt.checkpw(password.encode(), user[2]):
                 st.success("Connexion réussie")
                 st.session_state.logged_in = True
                 st.session_state.user_id = user[0]

@@ -120,11 +120,11 @@ Work in progress
 ## Roadmap
 
 - [x] Structure of the project
-- [ ] Authentification system
+- [x] Authentification system
   - [x] Users table
   - [x] Add it to the setup_db.py script
   - [x] Add a user
-  - [ ] Make a login page
+  - [x] Make a login page
 - [ ] Image management
   - [ ] Make an upload button
   - [ ] Extract features from the image
