@@ -110,7 +110,12 @@ Everything would be in a streamlit application.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Work in progress
+1. Launch the application
+  ```sh
+  streamlit run streamlit_app.py
+  ```
+2. Create an account
+3. Log in
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
