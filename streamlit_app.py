@@ -13,6 +13,9 @@ def main():
         login_page()
     else:
         st.title("👕 Bienvenue dans ta garde-robe IA")
+        with st.sidebar:
+            if st.button("Ajouter une image"):
+                "bien joué"
 
 if __name__ == "__main__":
     main()
